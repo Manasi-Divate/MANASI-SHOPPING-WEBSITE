@@ -1,0 +1,540 @@
+<html>
+<head>
+<title>shop</title>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/> 
+</head>
+<style>
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Spartan', sans-serif;
+}
+h1{
+font-size: 50px;
+line-height: 64px;
+color:#222;
+}
+h2{
+font-size:46px;
+line-height:54px;
+color:#222;
+}
+h3{
+font-size:20px;
+color:#222;
+}
+h4{
+font-weight:700;
+font-size:12px;
+}
+p{
+font-size:16px;
+color:#465b52;
+margin:15px 0 20px 0;
+}
+.section-p1{
+padding:40px 80px;
+}
+.section-m1{
+margin:40px 0;
+}
+body{
+width:100%;
+}
+#header{  
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding: 20px 80px;
+background:#E3E6F3;
+box-shadow:0 5px 15px rgba(0, 0, 0, 0.06);
+z-index:999;
+position:sticky;
+top:0;
+left:0;
+}
+#navbar {
+display:flex;
+align-items:center;
+justify-content:center;
+}
+#navbar li {
+list-style:none;
+padding:0px 20px;
+}
+#navbar li a{
+text-decoration: none;
+color:#1a1a1a;
+font-weight:700;
+font-size:20px;
+}
+#navbar li a:hover,
+#navbar li a.active {
+color:#088178;
+}
+#page-header{
+background-image:url('banner/b1.jpg');
+height:40vh;
+width:100%;
+background-size:cover;
+padding:14px;
+display:flex;
+flex-direction:column;
+text-align: center;
+justify-content:center;
+}
+#page-header h2,
+#page-header p {
+color:#fff;
+}
+
+#pagination {
+text-align:center;
+}
+#pagination a {
+text-decoration:none;
+background-color:#088178;
+padding: 15px 20px;
+border-radius:4px;
+color:#fff;
+font-weight: 600;
+} 
+#pagination a i {
+font-size:16px;
+font-weight:600;
+}
+
+
+#product1 {
+text-align:center;
+}
+#product1 .pro-container{
+display:flex;
+justify-content:space-between;
+padding-top: 20px;
+flex-wrap:wrap;
+}
+#product1 .pro {
+width:23%;
+min-width:250px;
+padding:10px 12px;
+border: 1px solid #cce7d0; 
+border-radius:25px;
+box-shadow:20px 20px 30px rgba(0, 0, 0, 0.02);
+margin:15px 0;
+position:relative;
+}
+#product1 .pro img {
+width:100%;
+border-radius:20px;
+}
+#product1 .pro .des{
+text-align:start;
+padding: 10px 0;
+}
+#product1 .pro .des span{
+color:#606063;
+font-size:12px;
+}
+#product1 .pro .des h5 {
+padding-top: 7px;
+color:#1a1a1a;
+font-size: 14px;
+}
+
+footer {
+display:flex;
+flex-wrap:wrap;
+justify-content: space-between;
+}
+
+
+footer .col {
+display:flex;
+flex-direction: column;
+align-items:flex-start;
+margin-bottom: 20px;
+}
+
+footer .logo {
+margin-bottom:30px;
+}
+
+footer h4 {
+font-size:14px;
+padding-bottom:20px;
+}
+
+footer p {
+font-size:13px;
+margin: 0 0 8px 0;
+}
+
+footer a {
+font-size:13px;
+text-decoration:none;
+color:#222;
+margin-bottom: 10px;
+}
+
+Copyright {
+display:flex;
+align-items:center;
+justify-content:center;
+} 
+
+</style>
+<body>
+<section id="header">
+<a href="#"><img src="Homepage/logo1.png"; height="100px"; width="200px"; class="logo"></a>
+<div> 
+<ul id="navbar">
+<li><a href="index.html">Home</a></li>
+<li><a class="active" href="shop.html">Shop</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="cart.html"><i class="fal fa-shopping-bag"></i></a></li>
+</ul>
+</div>
+</section>
+
+<section id="page-header">
+<div class="container">
+<a style="text-decoration:none;"></a>
+<h2>#stayhome</h2>
+<p>Save more with coupons and up to 70% off !</p>
+</div>
+</section>
+
+
+<section id="product1" class="section-p1">
+<div class="pro-container">
+
+<div class="pro">
+<img src="products/pro24.jpg"; height="75%"; width="100%";>
+<div class="des">
+<span>Zara</span>
+<h5>Classy Black Dress</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+<div class="pro">
+<img src="products/pro25.jpg"; height="75%"; width="100%";>
+<div class="des">
+<span>Zara</span>
+<h5>Blue Floral printed dress</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+<div class="pro">
+<img src="products/pro26.jpg"; height="75%"; width="100%";>
+<div class="des">
+<span>Zara</span>
+<h5>Light pink classsy Dress</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+
+<div class="pro">
+<img src="products/pro27.jpg"; height="75%"; width="100%";>
+<div class="des">
+<span>Zara</span>
+<h5>Maroon long dress</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+<div class="pro">
+<img src="products/pro28.jpg"; height="75%"; width="100%";>
+<div class="des">
+<span>Zara</span>
+<h5>Cartoon Astronaut T-Shirts</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+<div class="pro">
+<img src="products/pro29.jpg"; height="75%"; width="100%";>
+<div class="des">
+<span>Zara</span>
+<h5>Cartoon Astronaut T-Shirts</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+<div class="pro">
+<img src="products/pro30.jpg"; height="75%"; width="100%";>
+<div class="des">
+<span>Zara</span>
+<h5>Cartoon Astronaut T-Shirts</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+<div class="pro">
+<img src="products/pro31.jpg"; height="75%"; width="100%";>
+<div class="des">
+<span>Zara</span>
+<h5>Cartoon Astronaut T-Shirts</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+<div class="pro">
+<img src="products/card4.png"; height="75%"; width="100%";>
+<div class="des">
+<span>Zara</span>
+<h5>Stylish Royal Pink Dress</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+<div class="pro">
+<img src="products/card1.png"; height="75%"; width="100%";>
+<div class="des">
+<span>Zara</span>
+<h5>Floral Printed Green Dress</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+<div class="pro">
+<img src="products/fav.jpg"; height="75%"; width="100%";>
+<div class="des">
+<span>Zara</span>
+<h5>Stylish White Crop Top</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+
+<div class="pro">
+<img src="products/myfav.jpg"; height="75%"; width="100%";>
+<div class="des">
+<span>Zara</span>
+<h5>Floral Cold Shoulder Dress</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+
+<div class="pro">
+<img src="products/card7.png">
+<div class="des">
+<span>adidas</span>
+<h5>Cartoon Astronaut Shirts</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+
+<div class="pro">
+<img src="products/card2.png">
+<div class="des">
+<span>adidas</span>
+<h5>Cartoon Astronaut T-Shirts</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+
+
+
+<div class="pro">
+<img src="products/card13.png">
+<div class="des">
+<span>adidas</span>
+<h5>Cartoon Astronaut T-Shirts</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+                                                                                    
+
+
+<div class="pro">
+<img src="products/card3.png">
+<div class="des">
+<span>adidas</span>
+<h5>Cartoon Astronaut T-Shirts</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$78</h4>
+</div>
+</div>
+</section>
+
+
+<section id="pagination" class="section-p1">
+<a href="#">1</a>
+<a href="#">2</a>
+<a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
+</section>
+
+<footer class="section-p1">
+<div class="col">
+<img class="logo" src="Homepage/logo1.png"; height="100px"; width="200px";>
+<h4>Contact</h4>
+<p><strong>Adress:</strong> 562 Lamington Road, Street 32, Hubli</p>
+<p><strong>Phone:</strong> +01 2222 365</p>
+<p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+</div>
+
+<div class="col">
+<h4>About</h4>
+<a href="#">About Us</a>
+<a href="#">Delivery Information</a>
+<a href="#">Privacy Policy</a>
+<a href="#">Terms & Conditions</a>
+<a href="#">Contact Us</a>
+</div>
+
+<div class="col">
+<h4>My Account</h4>
+<a href="#">Sign In</a>
+<a href="#">View Cart</a>
+<a href="#">My Wishlist</a>
+<a href="#">Track My Order</a>
+<a href="#">Help</a>
+</div>
+
+<div class="col">
+<h4>Install App</h4>
+<p>From App Store or Google Play</p>
+<p>Secured Payments Gateways</p>
+</div>
+</footer>
+
+<Copyright class="section-p1">
+<div class="Copyright">
+<p>@ 2022, Tech2 etc - HTML CSS Ecommerce Website</p>
+</div>
+</Copyright>
+</body>
+</html>
